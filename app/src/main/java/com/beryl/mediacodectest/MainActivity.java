@@ -144,4 +144,10 @@ public class MainActivity extends Activity implements CodecInterface.onEncodeDat
             }
         }
     }
+    @Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		mWakelock.release();
+	}
 }
