@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MediaCodecTest</string>
+    <string name="start_preview">开始预览</string>
+    <string name="stop_preview">停止预览</string>
+    <string name="start_record">开始编码</string>
+    <string name="stop_record">停止编码</string>
+    <string name="change_camera">切换摄像头</string>
+</resources>
